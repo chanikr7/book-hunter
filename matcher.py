@@ -61,7 +61,20 @@ def author_matches(wanted_author, item_author):
     tokens = normalize(item_author).split()
     return any(fuzz.ratio(last, tok) >= AUTHOR_THRESHOLD for tok in tokens)
 
-
+def full_author_matches(wanted_author, item_author):
+    """כל חלקי השם צריכים להופיע (כדי ש-George R.R. Martin לא יתפוס את Steve Martin)."""
+    if "," in wanted_author:
+        last, _, first = wanted_author.partition(",")
+        wanted_author = f"{first} {last}"
+    wanted_tokens = [t for t in normalize(wanted_author).split() if len(t) > 1]
+    item_tokens = normalize(item_author).split()
+    if not wanted_tokens or not item_tokens:
+        return False
+    for wt in wanted_tokens:
+        if not any(fuzz.ratio(wt, it) >= AUTHOR_THRESHOLD or (len(it) == 1 and it == wt[0])
+                   for it in item_tokens):
+            return False
+    return True
 def _price_value(price):
     try:
         return float(price)
