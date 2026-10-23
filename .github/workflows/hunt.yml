@@ -3,7 +3,7 @@ name: book-hunter
 on:
   schedule:
     # כל 3 שעות (UTC). דקה 17 כדי לא להיתקע בעומס של תחילת השעה
-    - cron: "17 */3 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch: {}   # כפתור "Run workflow" להרצה ידנית
 
 permissions:
