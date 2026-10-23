@@ -84,6 +84,9 @@ def _price_value(price):
 
 def match(wanted, item):
     """מחזיר None אם אין התאמה, או מילון עם ציון ודגל ודאות."""
+        if not (wanted.get("title") or "").strip():
+        return _match_author_only(wanted, item)
+
     w_core = title_core(wanted["title"])
     i_core = title_core(item["title"])
     if not w_core or not i_core:
@@ -111,3 +114,17 @@ def match(wanted, item):
         return None
 
     return {"score": score, "certain": certain}
+
+
+def _match_author_only(wanted, item):
+    """שורה בלי שם ספר: כל ספר של המחבר נחשב התאמה."""
+    author = (wanted.get("author") or "").strip()
+    if not author or not item.get("author"):
+        return None
+    if not full_author_matches(author, item["author"]):
+        return None
+    max_price = _price_value(wanted.get("max_price"))
+    item_price = _price_value(item.get("price"))
+    if max_price is not None and item_price is not None and item_price > max_price:
+        return None
+    return {"score": 100, "certain": True}
