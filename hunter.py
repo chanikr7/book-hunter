@@ -28,10 +28,11 @@ def load_wishlist(path=WISHLIST):
         lines = [ln for ln in fh if ln.strip() and not ln.lstrip().startswith("#")]
     for row in csv.DictReader(lines):
         title = (row.get("title") or "").strip()
-        if title:
+        author = (row.get("author") or "").strip()
+        if title or author:
             rows.append({
                 "title": title,
-                "author": (row.get("author") or "").strip(),
+                "author": author,
                 "max_price": (row.get("max_price") or "").strip(),
             })
     return rows
@@ -93,6 +94,7 @@ def run(dry_run=False, catalog_file=None):
                 current[key] = f"{item['title']} | {item['author']} | {item['price']}"
                 if key not in seen_before:
                     found_new.append({"wanted": wanted, "item": item, "match": m})
+                break
         # במצב נשמרים רק העותקים שקיימים עכשיו: עותק שנמכר וחזר ייחשב חדש
         new_state[source.NAME] = current
         print(f"[{source.NAME}] {len(current)} matching copies, "
