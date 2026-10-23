@@ -38,7 +38,7 @@ def _md(text):
 
 
 def build_subject(found):
-    titles = sorted({f["wanted"]["title"] for f in found})
+    titles = sorted({f["wanted"]["title"] or f"ספרים של {f['wanted']['author']}" for f in found})
     if len(titles) == 1:
         return f"📚 נמצא: {titles[0]}"
     return f"📚 נמצאו {len(titles)} ספרים מהרשימה שלך: " + ", ".join(titles)[:150]
@@ -52,7 +52,7 @@ def build_body(found, mention=""):
     lines.append("נמצאו עותקים חדשים של ספרים מהרשימה שלך:")
     for (title, author), copies in _group(found).items():
         lines.append("")
-        lines.append(f"### {title}" + (f" / {author}" if author else ""))
+        lines.append(f"### {title} / {author}" if title else f"### כל הספרים של {author}")
         lines.append("")
         lines.append("| כותר בקטלוג | מחבר | מחיר | מצב | איפה |")
         lines.append("|---|---|---|---|---|")
