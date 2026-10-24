@@ -84,7 +84,7 @@ def _price_value(price):
 
 def match(wanted, item):
     """מחזיר None אם אין התאמה, או מילון עם ציון ודגל ודאות."""
-        if not (wanted.get("title") or "").strip():
+    if not (wanted.get("title") or "").strip():
         return _match_author_only(wanted, item)
 
     w_core = title_core(wanted["title"])
