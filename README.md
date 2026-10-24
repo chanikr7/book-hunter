@@ -5,7 +5,7 @@
 
 ## איך זה עובד
 
-1. פעם ב-3 שעות GitHub Actions מריץ את `hunter.py`.
+1. פעם ב-6 שעות GitHub Actions מריץ את `hunter.py`.
 2. הסקריפט מוריד את כל הקטלוג של גולדמונד (קובץ JSON אחד) ומשווה אותו לרשימה ב-`books.csv`.
 3. ההתאמה סלחנית להבדלים קטנים: `A Clash of Kings` תואם גם ל-`Clash of Kings: Book Two`,
    ו-`Harlan Coben` תואם ל-`Coben, Harlan`. אבל `Dune` **לא** יתאים ל-`Dune Messiah`.
