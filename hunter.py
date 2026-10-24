@@ -15,7 +15,7 @@ from pathlib import Path
 
 import notify
 from matcher import match, normalize
-from sources import SOURCES, goldmund
+from sources import SOURCES, SkipRun, goldmund
 
 ROOT = Path(__file__).parent
 WISHLIST = ROOT / "books.csv"
@@ -29,6 +29,7 @@ def load_wishlist(path=WISHLIST):
     for row in csv.DictReader(lines):
         title = (row.get("title") or "").strip()
         author = (row.get("author") or "").strip()
+        # שורה בלי שם ספר אבל עם מחבר = כל הספרים של המחבר
         if title or author:
             rows.append({
                 "title": title,
@@ -39,9 +40,11 @@ def load_wishlist(path=WISHLIST):
 
 
 def copy_key(item):
-    """מזהה לעותק. אין לקטלוג מזהה משלו, אז משתמשים בשילוב השדות."""
+    """מזהה לעותק: שילוב השדות, ובאתרים שיש להם מזהה לכל עותק (סיפור חוזר) גם המזהה."""
     raw = "|".join([item["source"], normalize(item["title"]), normalize(item["author"]),
                     item.get("condition", ""), item.get("price", "")])
+    if item.get("id"):
+        raw += "|" + str(item["id"])
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
@@ -67,14 +70,23 @@ def run(dry_run=False, catalog_file=None):
     new_state = {}
     found_new = []
     errors = []
+    skipped = 0
 
     for source in SOURCES:
         try:
             if catalog_file and source is goldmund:
                 data = json.loads(Path(catalog_file).read_text(encoding="utf-8"))
                 items = goldmund.parse(data)
+            elif getattr(source, "NEEDS_WISHLIST", False):
+                items = source.fetch(wishlist)
             else:
                 items = source.fetch()
+        except SkipRun as why:
+            # המקור לא נבדק הפעם: שומרים את מה שידוע עליו, בלי לדווח כשגיאה
+            print(f"[{source.NAME}] skipped: {why}")
+            skipped += 1
+            new_state[source.NAME] = state.get(source.NAME, {})
+            continue
         except Exception as exc:  # תקלה באתר אחד לא מפילה את השאר
             errors.append(f"{source.NAME}: {exc}")
             print(f"[{source.NAME}] ERROR: {exc}", file=sys.stderr)
@@ -94,6 +106,7 @@ def run(dry_run=False, catalog_file=None):
                 current[key] = f"{item['title']} | {item['author']} | {item['price']}"
                 if key not in seen_before:
                     found_new.append({"wanted": wanted, "item": item, "match": m})
+                # עותק שתואם לכמה שורות (למשל ספר מסוים וגם "כל ספרי המחבר") מדווח פעם אחת
                 break
         # במצב נשמרים רק העותקים שקיימים עכשיו: עותק שנמכר וחזר ייחשב חדש
         new_state[source.NAME] = current
@@ -113,8 +126,8 @@ def run(dry_run=False, catalog_file=None):
     if not dry_run:
         save_state(new_state)
 
-    # אם כל המקורות נכשלו, מחזירים קוד שגיאה כדי ש-GitHub ישלח התראת כישלון
-    return 1 if errors and len(errors) == len(SOURCES) else 0
+    # אם כל המקורות שנבדקו נכשלו, מחזירים קוד שגיאה כדי ש-GitHub ישלח התראת כישלון
+    return 1 if errors and len(errors) == len(SOURCES) - skipped else 0
 
 
 if __name__ == "__main__":
