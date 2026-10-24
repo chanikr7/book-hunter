@@ -17,7 +17,7 @@ concurrency:
 jobs:
   hunt:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -31,6 +31,7 @@ jobs:
       - name: Look for books
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # מובנה, לא צריך להגדיר כלום
+          PYTHONUNBUFFERED: "1"        
         run: python hunter.py
 
       - name: Save state
