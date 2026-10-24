@@ -1,12 +1,15 @@
 """התאמה בין ספר מבוקש לפריט בקטלוג.
 
 כללים:
-- משווים את "ליבת" הכותרת (בלי כותרת משנה אחרי נקודתיים, מקף או סוגריים,
+- משווים את "ליבת" הכותרת (בלי כותרת משנה אחרי נקודתיים, מקף, קו | או סוגריים,
   ובלי The/A/An בהתחלה), כך ש-"Dune: Deluxe Edition" תואם ל-"Dune"
   אבל "Dune Messiah" לא.
 - אם צוין מחבר, שם המשפחה שלו חייב להופיע בשם המחבר בקטלוג
   (סדר השמות לא משנה: "Coben, Harlan" תואם ל-"Harlan Coben").
 - אם בקטלוג אין מחבר, מקבלים רק התאמת כותרת מלאה ומסמנים "לא ודאי".
+- שורה בלי שם ספר ועם מחבר = כל הספרים של המחבר. כאן ההתאמה מחמירה
+  יותר: כל חלקי השם צריכים להופיע, לא רק שם המשפחה.
+- גרש ומירכאות נמחקים בהשוואה: ג'ין / ג׳ין / גין נחשבים אותו דבר.
 """
 
 import re
@@ -18,7 +21,8 @@ TITLE_THRESHOLD = 90      # ציון מינימלי להתאמת ליבת הכו
 AUTHOR_THRESHOLD = 85     # ציון מינימלי להתאמת שם משפחה
 
 _ARTICLES = ("the ", "a ", "an ")
-_SUBTITLE_RE = re.compile(r"\s*(?::|\s-\s|\s–\s|\(|\[).*$")
+_SUBTITLE_RE = re.compile(r"\s*(?::|\s-\s|\s–\s|\s\|\s|\(|\[).*$")
+_QUOTES_RE = re.compile(r"['\"`׳״‘’“”]")
 _NON_WORD_RE = re.compile(r"[^\w\s]")
 _SPACE_RE = re.compile(r"\s+")
 
@@ -29,6 +33,7 @@ def normalize(text):
     text = unicodedata.normalize("NFKD", text)
     text = "".join(c for c in text if not unicodedata.combining(c))
     text = text.lower().replace("&", " and ")
+    text = _QUOTES_RE.sub("", text)
     text = _NON_WORD_RE.sub(" ", text)
     return _SPACE_RE.sub(" ", text).strip()
 
@@ -54,16 +59,28 @@ def _last_name(author):
     return tokens[-1] if tokens else ""
 
 
+def _name_eq(a, b):
+    """שמות קצרים (עד 3 אותיות) חייבים להיות זהים, כדי ש"עוז" לא יתאים ל"עוזר"."""
+    if min(len(a), len(b)) <= 3:
+        return a == b
+    return fuzz.ratio(a, b) >= AUTHOR_THRESHOLD
+
+
 def author_matches(wanted_author, item_author):
     last = _last_name(wanted_author)
     if not last:
         return True
     tokens = normalize(item_author).split()
-    return any(fuzz.ratio(last, tok) >= AUTHOR_THRESHOLD for tok in tokens)
+    return any(_name_eq(last, tok) for tok in tokens)
+
 
 def full_author_matches(wanted_author, item_author):
-    """כל חלקי השם צריכים להופיע (כדי ש-George R.R. Martin לא יתפוס את Steve Martin)."""
-    if "," in wanted_author:
+    """התאמה מחמירה לחיפוש לפי מחבר בלבד: כל חלקי השם צריכים להופיע.
+
+    בלי זה, חיפוש "George R.R. Martin" לפי שם משפחה היה תופס כל Martin.
+    אות בודדת בקטלוג (T. Pratchett) נחשבת התאמה לשם שמתחיל באותה אות.
+    """
+    if "," in wanted_author:  # "Pratchett, Terry" -> "Terry Pratchett"
         last, _, first = wanted_author.partition(",")
         wanted_author = f"{first} {last}"
     wanted_tokens = [t for t in normalize(wanted_author).split() if len(t) > 1]
@@ -71,10 +88,13 @@ def full_author_matches(wanted_author, item_author):
     if not wanted_tokens or not item_tokens:
         return False
     for wt in wanted_tokens:
-        if not any(fuzz.ratio(wt, it) >= AUTHOR_THRESHOLD or (len(it) == 1 and it == wt[0])
-                   for it in item_tokens):
+        ok = any(_name_eq(wt, it) or (len(it) == 1 and it == wt[0])
+                 for it in item_tokens)
+        if not ok:
             return False
     return True
+
+
 def _price_value(price):
     try:
         return float(price)
@@ -108,12 +128,16 @@ def match(wanted, item):
                 return None
             certain = False
 
-    max_price = _price_value(wanted.get("max_price"))
-    item_price = _price_value(item.get("price"))
-    if max_price is not None and item_price is not None and item_price > max_price:
+    if _too_expensive(wanted, item):
         return None
 
     return {"score": score, "certain": certain}
+
+
+def _too_expensive(wanted, item):
+    max_price = _price_value(wanted.get("max_price"))
+    item_price = _price_value(item.get("price"))
+    return max_price is not None and item_price is not None and item_price > max_price
 
 
 def _match_author_only(wanted, item):
@@ -123,8 +147,6 @@ def _match_author_only(wanted, item):
         return None
     if not full_author_matches(author, item["author"]):
         return None
-    max_price = _price_value(wanted.get("max_price"))
-    item_price = _price_value(item.get("price"))
-    if max_price is not None and item_price is not None and item_price > max_price:
+    if _too_expensive(wanted, item):
         return None
     return {"score": 100, "certain": True}
