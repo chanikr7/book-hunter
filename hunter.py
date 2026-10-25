@@ -110,6 +110,14 @@ def run(dry_run=False, catalog_file=None):
                 break
         # במצב נשמרים רק העותקים שקיימים עכשיו: עותק שנמכר וחזר ייחשב חדש
         new_state[source.NAME] = current
+                # פרטים נוספים (למשל סניפים) רק לעותקים החדשים, כדי לא להוסיף בקשות מיותרות
+        if hasattr(source, "enrich"):
+            for f in found_new:
+                if f["item"]["source"] == source.NAME:
+                    try:
+                        source.enrich(f["item"])
+                    except Exception as exc:
+                        print(f"[{source.NAME}] no details for {f['item']['url']}: {exc}")
         print(f"[{source.NAME}] {len(current)} matching copies, "
               f"{sum(1 for f in found_new if f['item']['source'] == source.NAME)} new")
 
