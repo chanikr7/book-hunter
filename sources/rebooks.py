@@ -167,3 +167,27 @@ def fetch(wishlist):
 
     _log(f"done: {s.requests} requests in {time.monotonic() - s.started:.0f}s")
     return list(found.values())
+
+def _get_page(url):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+        return resp.read().decode("utf-8", errors="replace")
+
+
+def parse_branches(html):
+    """רשימת הסניפים מתוך החלון "זמינות המוצר בסניפים" בדף הספר."""
+    soup = BeautifulSoup(html, "html.parser")
+    names = []
+    for span in soup.select(".stores-stock .store-header span"):
+        name = _text(span).removeprefix("סניף").strip()
+        if name and name not in names:
+            names.append(name)
+    return names
+
+
+def enrich(item):
+    """נקרא רק לעותקים חדשים: מוסיף את הסניפים שבהם העותק נמצא."""
+    time.sleep(DELAY_SECONDS)
+    branches = parse_branches(_get_page(item["url"]))
+    if branches:
+        item["location"] = "סניף " + ", ".join(branches)
