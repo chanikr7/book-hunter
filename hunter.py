@@ -13,6 +13,7 @@ import json
 import sys
 from pathlib import Path
 
+import findings
 import notify
 from matcher import match, normalize
 from sources import SOURCES, SkipRun, goldmund
@@ -71,6 +72,9 @@ def run(dry_run=False, catalog_file=None):
     found_new = []
     errors = []
     skipped = 0
+    checked = {}      # לדף הממצאים: כל העותקים התואמים, לכל חנות שנבדקה
+    statuses = {}
+    run_time = findings._now().strftime("%d.%m %H:%M")
 
     for source in SOURCES:
         try:
@@ -85,11 +89,13 @@ def run(dry_run=False, catalog_file=None):
             # המקור לא נבדק הפעם: שומרים את מה שידוע עליו, בלי לדווח כשגיאה
             print(f"[{source.NAME}] skipped: {why}")
             skipped += 1
+            # המצב בדף הממצאים נשאר מהבדיקה הקודמת
             new_state[source.NAME] = state.get(source.NAME, {})
             continue
         except Exception as exc:  # תקלה באתר אחד לא מפילה את השאר
             errors.append(f"{source.NAME}: {exc}")
             print(f"[{source.NAME}] ERROR: {exc}", file=sys.stderr)
+            statuses[source.NAME] = f"⚠️ {source.DISPLAY_NAME}: תקלה בבדיקה ב-{run_time} (הנתונים מהבדיקה הקודמת)"
             # שומרים את המצב הקודם של המקור, כדי לא לשלוח הכל מחדש בריצה הבאה
             new_state[source.NAME] = state.get(source.NAME, {})
             continue
@@ -97,6 +103,7 @@ def run(dry_run=False, catalog_file=None):
         print(f"[{source.NAME}] {len(items)} items in catalog")
         seen_before = state.get(source.NAME, {})
         current = {}
+        matches = []
         for item in items:
             for wanted in wishlist:
                 m = match(wanted, item)
@@ -104,13 +111,14 @@ def run(dry_run=False, catalog_file=None):
                     continue
                 key = copy_key(item)
                 current[key] = f"{item['title']} | {item['author']} | {item['price']}"
+                matches.append({"key": key, "item": item, "wanted": wanted})
                 if key not in seen_before:
                     found_new.append({"wanted": wanted, "item": item, "match": m})
                 # עותק שתואם לכמה שורות (למשל ספר מסוים וגם "כל ספרי המחבר") מדווח פעם אחת
                 break
         # במצב נשמרים רק העותקים שקיימים עכשיו: עותק שנמכר וחזר ייחשב חדש
         new_state[source.NAME] = current
-                # פרטים נוספים (למשל סניפים) רק לעותקים החדשים, כדי לא להוסיף בקשות מיותרות
+        # פרטים נוספים (למשל סניפים) רק לעותקים החדשים, כדי לא להוסיף בקשות מיותרות
         if hasattr(source, "enrich"):
             for f in found_new:
                 if f["item"]["source"] == source.NAME:
@@ -118,6 +126,8 @@ def run(dry_run=False, catalog_file=None):
                         source.enrich(f["item"])
                     except Exception as exc:
                         print(f"[{source.NAME}] no details for {f['item']['url']}: {exc}")
+        checked[source.NAME] = matches
+        statuses[source.NAME] = f"{source.DISPLAY_NAME}: נבדק ב-{run_time}, {len(current)} עותקים תואמים"
         print(f"[{source.NAME}] {len(current)} matching copies, "
               f"{sum(1 for f in found_new if f['item']['source'] == source.NAME)} new")
 
@@ -133,6 +143,10 @@ def run(dry_run=False, catalog_file=None):
 
     if not dry_run:
         save_state(new_state)
+        data = findings.load()
+        findings.update(data, wishlist, checked, statuses)
+        findings.save(data)
+        findings.render(data, wishlist)
 
     # אם כל המקורות שנבדקו נכשלו, מחזירים קוד שגיאה כדי ש-GitHub ישלח התראת כישלון
     return 1 if errors and len(errors) == len(SOURCES) - skipped else 0
