@@ -35,11 +35,12 @@ jobs:
         run: python hunter.py
 
       - name: Save state
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain state.json)" ]; then
+          if [ -n "$(git status --porcelain state.json findings.json FINDINGS.md)" ]; then
             git config user.name "book-hunter"
             git config user.email "book-hunter@users.noreply.github.com"
-            git add state.json
-            git commit -m "update seen copies"
+            git add state.json findings.json FINDINGS.md
+            git commit -m "update findings"
             git push
           fi
