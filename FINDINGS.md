@@ -1,9 +1,16 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 09.11.26 08:39 &nbsp;·&nbsp; **זמינים עכשיו:** 23 עותקים של 10 ספרים מהרשימה
+**ריצה אחרונה:** 10.11.26 00:22 &nbsp;·&nbsp; **זמינים עכשיו:** 25 עותקים של 11 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-09.11 08:31, 6 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-10.11 00:22, 8 עותקים תואמים
 - סיפור חוזר: נבדק ב-09.11 08:31, 17 עותקים תואמים
+
+## כל הספרים של Kurt Vonnegut
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| Slapstick or Lonesome No More!: A Novel | Kurt Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
+| Welcome to the monkey house | Kurt Jr Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
 
 ## Atlas Shrugged / Ayn Rand
 
@@ -80,7 +87,6 @@
 
 ## עוד לא נמצאו
 
-- Mother Night / Kurt Vonnegut
 - The Gallic War / Julius Caesar
 - Surely You're Joking Mr. Feynman! / Richard Feynman
 - The Strange Case of Dr Jekyll and Mr Hyde / Robert Louis Stevenson
@@ -109,6 +115,7 @@
 - עבד אמריקני סיפור חייו / פרדריק דאגלס
 - A Walk in the Woods / Bill Bryson
 - האדם מחפש משמעות / ויקטור פרנקל
+- גדל אשר באך / דאגלס הופשטטר
 - Prophets without honour / Frederic V. Grunfeld
 - The Innocents Abroad / Mark Twain
 - מסעות בנימין / בנימין מטודלה
