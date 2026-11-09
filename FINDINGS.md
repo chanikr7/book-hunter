@@ -1,9 +1,15 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 09.11.26 00:06 &nbsp;·&nbsp; **זמינים עכשיו:** 22 עותקים של 9 ספרים מהרשימה
+**ריצה אחרונה:** 09.11.26 08:39 &nbsp;·&nbsp; **זמינים עכשיו:** 23 עותקים של 10 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-09.11 00:06, 6 עותקים תואמים
-- סיפור חוזר: נבדק ב-08.11 08:02, 16 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-09.11 08:31, 6 עותקים תואמים
+- סיפור חוזר: נבדק ב-09.11 08:31, 17 עותקים תואמים
+
+## Atlas Shrugged / Ayn Rand
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| Atlas shrugged | Ayn Rand | 25 | signet , 1996 | [סיפור חוזר](https://rebooks.org.il/product/atlas-shrugged-4/), סניף ראשון לציון | 09.11.26 08:39 |
 
 ## The Rise and Fall of the Third Reich / William L. Shirer
 
@@ -76,7 +82,6 @@
 
 - Mother Night / Kurt Vonnegut
 - The Gallic War / Julius Caesar
-- Atlas Shrugged / Ayn Rand
 - Surely You're Joking Mr. Feynman! / Richard Feynman
 - The Strange Case of Dr Jekyll and Mr Hyde / Robert Louis Stevenson
 - Gödel Escher Bach / Douglas Hofstadter
