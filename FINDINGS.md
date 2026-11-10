@@ -1,16 +1,16 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 10.11.26 00:22 &nbsp;·&nbsp; **זמינים עכשיו:** 25 עותקים של 11 ספרים מהרשימה
+**ריצה אחרונה:** 10.11.26 09:27 &nbsp;·&nbsp; **זמינים עכשיו:** 24 עותקים של 10 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-10.11 00:22, 8 עותקים תואמים
-- סיפור חוזר: נבדק ב-09.11 08:31, 17 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-10.11 09:19, 8 עותקים תואמים
+- סיפור חוזר: נבדק ב-10.11 09:19, 16 עותקים תואמים
 
 ## כל הספרים של Kurt Vonnegut
 
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
-| Slapstick or Lonesome No More!: A Novel | Kurt Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
 | Welcome to the monkey house | Kurt Jr Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
+| Slapstick or Lonesome No More!: A Novel | Kurt Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
 
 ## Atlas Shrugged / Ayn Rand
 
@@ -26,9 +26,13 @@
 
 ## The Periodic Table / Primo Levi
 
-| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
-|---|---|---|---|---|---|
-| The Periodic Table | Primo Levi | 25 | Abacus , 1986 | [סיפור חוזר](https://rebooks.org.il/product/the-periodic-table/), סניף תל אביב | 05.11.26 13:41 |
+<details><summary>❌ עותקים שנעלמו (כנראה נמכרו)</summary>
+
+| כותר | חנות | מחיר | נמצא | נעלם |
+|---|---|---|---|---|
+| The Periodic Table | סיפור חוזר | 25 | 05.11.26 13:41 | 10.11.26 09:27 |
+
+</details>
 
 ## The Name of the Rose / Umberto Eco
 
