@@ -1,9 +1,9 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 10.11.26 21:44 &nbsp;·&nbsp; **זמינים עכשיו:** 24 עותקים של 10 ספרים מהרשימה
+**ריצה אחרונה:** 11.11.26 08:30 &nbsp;·&nbsp; **זמינים עכשיו:** 25 עותקים של 11 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-10.11 21:44, 8 עותקים תואמים
-- סיפור חוזר: נבדק ב-10.11 09:19, 16 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-11.11 08:22, 8 עותקים תואמים
+- סיפור חוזר: נבדק ב-11.11 08:22, 17 עותקים תואמים
 
 ## כל הספרים של Kurt Vonnegut
 
@@ -40,7 +40,14 @@
 |---|---|---|---|---|---|
 | The Name Of The Rose | Umberto Eco | 25 |  | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose/), סניף כפר סבא | 05.11.26 13:41 |
 | The Name of the Rose | Umberto Eco | 25 | MINERVA, Picador , 1984, 1997 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-2/), סניף כפר סבא | 05.11.26 13:41 |
+| The Name Of The Rose | Umberto Eco | 25 | Vintage , 2004 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-3/), סניף באר שבע- ביג | 11.11.26 08:30 |
 | The name of the rose | Umberto Eco | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+
+## Catch-22 / Joseph Heller
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| CATCH-22 | Joseph Heller | 25 | Vintage, SIMON & SCHUSTER PAPERBACKS , 1994, 2004 | [סיפור חוזר](https://rebooks.org.il/product/catch-22-5/), אחד הסניפים (משלוח או איסוף מהסניף) | 11.11.26 08:30 |
 
 ## הטבלה המחזורית / פרימו לוי
 
@@ -58,8 +65,15 @@
 |---|---|---|---|---|---|
 | שם הורד | אומברטו אקו | 25 | דביר- מוציאים לאור בע"מ, זמורה, זמורה ביתן, כנרת , 1998, 2011 | [סיפור חוזר](https://rebooks.org.il/product/%d7%a9%d7%9d-%d7%94%d7%95%d7%a8%d7%93-2/), סניף באר שבע- ביג | 05.11.26 13:41 |
 | שם הורד | אומברטו אקו | 25 | זמורה, זמורה ביתן , 1998 | [סיפור חוזר](https://rebooks.org.il/product/%d7%a9%d7%9d-%d7%94%d7%95%d7%a8%d7%93-6/), אחד הסניפים (משלוח או איסוף מהסניף) | 05.11.26 13:41 |
-| שם הוורד | אומברטו אקו | 25 | דביר- מוציאים לאור בע"מ, זמורה ביתן, כנרת , 2010 | [סיפור חוזר](https://rebooks.org.il/product/%d7%a9%d7%9d-%d7%94%d7%95%d7%95%d7%a8%d7%93/), סניף עפולה | 05.11.26 13:41 |
 | שם הורד | אומברטו אקו | 25.2 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+
+<details><summary>❌ עותקים שנעלמו (כנראה נמכרו)</summary>
+
+| כותר | חנות | מחיר | נמצא | נעלם |
+|---|---|---|---|---|
+| שם הוורד | סיפור חוזר | 25 | 05.11.26 13:41 | 11.11.26 08:30 |
+
+</details>
 
 ## כל הספרים של אורסולה לה גוין
 
@@ -99,7 +113,6 @@
 - DPs: Europe's Displaced Persons 1945-51 / Mark Wyman
 - His Dark Materials / Philip Pullman
 - The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared / Jonas Jonasson
-- Catch-22 / Joseph Heller
 - Seven Pillars of Wisdom / T. E. Lawrence
 - Mother Night / Kurt Vonnegut
 - Absalom Absalom! / William Faulkner
