@@ -1,10 +1,25 @@
 {
  "copies": {
+  "00eb5dfbf485c78f": {
+   "author": "ויקטור פראנקל (פרנקל)",
+   "condition": "טוב",
+   "first_seen": "2026-11-11T21:37+02:00",
+   "gone_since": null,
+   "last_seen": "2026-11-11T21:37+02:00",
+   "location": "חיפה, עקרון 6 (שוק תלפיות)",
+   "price": "35.2",
+   "source": "goldmund",
+   "source_name": "גולדמונד ספרים (חיפה)",
+   "title": "האדם מחפש משמעות",
+   "url": "https://files.goldmundbooks.com/catalog_cart.html",
+   "wanted": "האדם מחפש משמעות|ויקטור פרנקל",
+   "wanted_label": "האדם מחפש משמעות / ויקטור פרנקל"
+  },
   "060631a70c7d532e": {
    "author": "אומברטו אקו",
    "condition": "טוב",
    "first_seen": "2026-11-05T13:41+02:00",
-   "gone_since": null,
+   "gone_since": "2026-11-11T21:37+02:00",
    "last_seen": "2026-11-11T08:30+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "25.2",
@@ -35,7 +50,7 @@
    "condition": "טוב",
    "first_seen": "2026-11-05T13:41+02:00",
    "gone_since": null,
-   "last_seen": "2026-11-11T08:30+02:00",
+   "last_seen": "2026-11-11T21:37+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "40.1",
    "source": "goldmund",
@@ -60,6 +75,21 @@
    "wanted": "שם הוורד|אומברטו אקו",
    "wanted_label": "שם הוורד / אומברטו אקו"
   },
+  "126d1b276f623a63": {
+   "author": "אומברטו אקו",
+   "condition": "טוב",
+   "first_seen": "2026-11-11T21:37+02:00",
+   "gone_since": null,
+   "last_seen": "2026-11-11T21:37+02:00",
+   "location": "חיפה, עקרון 6 (שוק תלפיות)",
+   "price": "25.1",
+   "source": "goldmund",
+   "source_name": "גולדמונד ספרים (חיפה)",
+   "title": "שם הורד",
+   "url": "https://files.goldmundbooks.com/catalog_cart.html",
+   "wanted": "שם הוורד|אומברטו אקו",
+   "wanted_label": "שם הוורד / אומברטו אקו"
+  },
   "1e136aafdc6efacc": {
    "author": "אומברטו אקו",
    "condition": "זמורה, זמורה ביתן , 1998",
@@ -75,11 +105,26 @@
    "wanted": "שם הוורד|אומברטו אקו",
    "wanted_label": "שם הוורד / אומברטו אקו"
   },
+  "25b94bf129ffb94b": {
+   "author": "הרב יונתן זקס",
+   "condition": "כחדש",
+   "first_seen": "2026-11-11T21:37+02:00",
+   "gone_since": null,
+   "last_seen": "2026-11-11T21:37+02:00",
+   "location": "חיפה, עקרון 6 (שוק תלפיות)",
+   "price": "55.1",
+   "source": "goldmund",
+   "source_name": "גולדמונד ספרים (חיפה)",
+   "title": "שיג ושיח - א'",
+   "url": "https://files.goldmundbooks.com/catalog_cart.html",
+   "wanted": "|יונתן זקס",
+   "wanted_label": "כל הספרים של יונתן זקס"
+  },
   "2bd95862e07993a8": {
    "author": "Kurt Jr Vonnegut",
    "condition": "טוב",
    "first_seen": "2026-11-10T00:22+02:00",
-   "gone_since": null,
+   "gone_since": "2026-11-11T21:37+02:00",
    "last_seen": "2026-11-11T08:30+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "30.1",
@@ -89,6 +134,21 @@
    "url": "https://files.goldmundbooks.com/catalog_cart.html",
    "wanted": "|Kurt Vonnegut",
    "wanted_label": "כל הספרים של Kurt Vonnegut"
+  },
+  "39d03db64e791a4a": {
+   "author": "פרימו לוי",
+   "condition": "טוב",
+   "first_seen": "2026-11-11T21:37+02:00",
+   "gone_since": null,
+   "last_seen": "2026-11-11T21:37+02:00",
+   "location": "חיפה, עקרון 6 (שוק תלפיות)",
+   "price": "35.1",
+   "source": "goldmund",
+   "source_name": "גולדמונד ספרים (חיפה)",
+   "title": "הטבלה המחזורית [מהדורת 1987]",
+   "url": "https://files.goldmundbooks.com/catalog_cart.html",
+   "wanted": "הטבלה המחזורית|פרימו לוי",
+   "wanted_label": "הטבלה המחזורית / פרימו לוי"
   },
   "3e3ea47c41f41f93": {
    "author": "פרימו לוי",
@@ -140,7 +200,7 @@
    "condition": "טוב",
    "first_seen": "2026-11-05T13:41+02:00",
    "gone_since": null,
-   "last_seen": "2026-11-11T08:30+02:00",
+   "last_seen": "2026-11-11T21:37+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "25.1",
    "source": "goldmund",
@@ -184,7 +244,7 @@
    "author": "אורסולה לה גווין",
    "condition": "טוב",
    "first_seen": "2026-11-05T13:41+02:00",
-   "gone_since": null,
+   "gone_since": "2026-11-11T21:37+02:00",
    "last_seen": "2026-11-11T08:30+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "40.1",
@@ -200,7 +260,7 @@
    "condition": "טוב",
    "first_seen": "2026-11-05T13:41+02:00",
    "gone_since": null,
-   "last_seen": "2026-11-11T08:30+02:00",
+   "last_seen": "2026-11-11T21:37+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "40",
    "source": "goldmund",
@@ -365,7 +425,7 @@
    "condition": "טוב",
    "first_seen": "2026-11-10T00:22+02:00",
    "gone_since": null,
-   "last_seen": "2026-11-11T08:30+02:00",
+   "last_seen": "2026-11-11T21:37+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "30.1",
    "source": "goldmund",
@@ -390,12 +450,27 @@
    "wanted": "הטבלה המחזורית|פרימו לוי",
    "wanted_label": "הטבלה המחזורית / פרימו לוי"
   },
+  "f8a489ad4c9cf96f": {
+   "author": "Jonas Jonasson",
+   "condition": "טוב",
+   "first_seen": "2026-11-11T21:37+02:00",
+   "gone_since": null,
+   "last_seen": "2026-11-11T21:37+02:00",
+   "location": "חיפה, עקרון 6 (שוק תלפיות)",
+   "price": "20.1",
+   "source": "goldmund",
+   "source_name": "גולדמונד ספרים (חיפה)",
+   "title": "The 100-Year-Old Man who climbed out the window and disappeared",
+   "url": "https://files.goldmundbooks.com/catalog_cart.html",
+   "wanted": "The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared|Jonas Jonasson",
+   "wanted_label": "The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared / Jonas Jonasson"
+  },
   "fea47ff6e067e5e2": {
    "author": "יונתן זקס",
    "condition": "כחדש",
    "first_seen": "2026-11-05T13:41+02:00",
    "gone_since": null,
-   "last_seen": "2026-11-11T08:30+02:00",
+   "last_seen": "2026-11-11T21:37+02:00",
    "location": "חיפה, עקרון 6 (שוק תלפיות)",
    "price": "80.1",
    "source": "goldmund",
@@ -406,9 +481,9 @@
    "wanted_label": "כל הספרים של יונתן זקס"
   }
  },
- "last_run": "2026-11-11T08:30+02:00",
+ "last_run": "2026-11-11T21:37+02:00",
  "sources": {
-  "goldmund": "גולדמונד ספרים (חיפה): נבדק ב-11.11 08:22, 8 עותקים תואמים",
+  "goldmund": "גולדמונד ספרים (חיפה): נבדק ב-11.11 21:36, 10 עותקים תואמים",
   "rebooks": "סיפור חוזר: נבדק ב-11.11 08:22, 17 עותקים תואמים"
  }
 }

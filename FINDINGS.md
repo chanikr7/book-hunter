@@ -1,16 +1,23 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 11.11.26 08:30 &nbsp;·&nbsp; **זמינים עכשיו:** 25 עותקים של 11 ספרים מהרשימה
+**ריצה אחרונה:** 11.11.26 21:37 &nbsp;·&nbsp; **זמינים עכשיו:** 27 עותקים של 13 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-11.11 08:22, 8 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-11.11 21:36, 10 עותקים תואמים
 - סיפור חוזר: נבדק ב-11.11 08:22, 17 עותקים תואמים
 
 ## כל הספרים של Kurt Vonnegut
 
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
-| Welcome to the monkey house | Kurt Jr Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
 | Slapstick or Lonesome No More!: A Novel | Kurt Vonnegut | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 10.11.26 00:22 |
+
+<details><summary>❌ עותקים שנעלמו (כנראה נמכרו)</summary>
+
+| כותר | חנות | מחיר | נמצא | נעלם |
+|---|---|---|---|---|
+| Welcome to the monkey house | גולדמונד ספרים (חיפה) | 30.1 | 10.11.26 00:22 | 11.11.26 21:37 |
+
+</details>
 
 ## Atlas Shrugged / Ayn Rand
 
@@ -34,13 +41,19 @@
 
 </details>
 
+## The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared / Jonas Jonasson
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| The 100-Year-Old Man who climbed out the window and disappeared | Jonas Jonasson | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 11.11.26 21:37 |
+
 ## The Name of the Rose / Umberto Eco
 
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
+| The Name Of The Rose | Umberto Eco | 25 | Vintage , 2004 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-3/), סניף באר שבע- ביג | 11.11.26 08:30 |
 | The Name Of The Rose | Umberto Eco | 25 |  | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose/), סניף כפר סבא | 05.11.26 13:41 |
 | The Name of the Rose | Umberto Eco | 25 | MINERVA, Picador , 1984, 1997 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-2/), סניף כפר סבא | 05.11.26 13:41 |
-| The Name Of The Rose | Umberto Eco | 25 | Vintage , 2004 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-3/), סניף באר שבע- ביג | 11.11.26 08:30 |
 | The name of the rose | Umberto Eco | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
 
 ## Catch-22 / Joseph Heller
@@ -58,6 +71,7 @@
 | הטבלה המחזורית | פרימו לוי | 25 | הוצאת הקיבוץ המאוחד/ ספרי סימן קריאה , 1987 | [סיפור חוזר](https://rebooks.org.il/product/%d7%94%d7%98%d7%91%d7%9c%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%95%d7%a8%d7%99%d7%aa-3/), סניף אשדוד, חדרה, נתיבות, רמת גן | 05.11.26 13:41 |
 | הטבלה המחזורית | פרימו לוי | 25 |  | [סיפור חוזר](https://rebooks.org.il/product/%d7%94%d7%98%d7%91%d7%9c%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%95%d7%a8%d7%99%d7%aa/), סניף תל אביב | 05.11.26 13:41 |
 | הטבלה המחזורית | פרימו לוי | 25 | הספריה החדשה , 2001 | [סיפור חוזר](https://rebooks.org.il/product/%d7%94%d7%98%d7%91%d7%9c%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%95%d7%a8%d7%99%d7%aa-6/), אחד הסניפים (משלוח או איסוף מהסניף) | 05.11.26 13:41 |
+| הטבלה המחזורית [מהדורת 1987] | פרימו לוי | 35.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 11.11.26 21:37 |
 
 ## שם הוורד / אומברטו אקו
 
@@ -65,12 +79,13 @@
 |---|---|---|---|---|---|
 | שם הורד | אומברטו אקו | 25 | דביר- מוציאים לאור בע"מ, זמורה, זמורה ביתן, כנרת , 1998, 2011 | [סיפור חוזר](https://rebooks.org.il/product/%d7%a9%d7%9d-%d7%94%d7%95%d7%a8%d7%93-2/), סניף באר שבע- ביג | 05.11.26 13:41 |
 | שם הורד | אומברטו אקו | 25 | זמורה, זמורה ביתן , 1998 | [סיפור חוזר](https://rebooks.org.il/product/%d7%a9%d7%9d-%d7%94%d7%95%d7%a8%d7%93-6/), אחד הסניפים (משלוח או איסוף מהסניף) | 05.11.26 13:41 |
-| שם הורד | אומברטו אקו | 25.2 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+| שם הורד | אומברטו אקו | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 11.11.26 21:37 |
 
 <details><summary>❌ עותקים שנעלמו (כנראה נמכרו)</summary>
 
 | כותר | חנות | מחיר | נמצא | נעלם |
 |---|---|---|---|---|
+| שם הורד | גולדמונד ספרים (חיפה) | 25.2 | 05.11.26 13:41 | 11.11.26 21:37 |
 | שם הוורד | סיפור חוזר | 25 | 05.11.26 13:41 | 11.11.26 08:30 |
 
 </details>
@@ -80,7 +95,14 @@
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
 | מעבר לעלטה | אורסולה לה גווין | 40.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
-| מכונת החלומות | אורסולה לה גווין | 40.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+
+<details><summary>❌ עותקים שנעלמו (כנראה נמכרו)</summary>
+
+| כותר | חנות | מחיר | נמצא | נעלם |
+|---|---|---|---|---|
+| מכונת החלומות | גולדמונד ספרים (חיפה) | 40.1 | 05.11.26 13:41 | 11.11.26 21:37 |
+
+</details>
 
 ## בשפריר חביון / חיים סבתו
 
@@ -95,7 +117,14 @@
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
 | מערכות מידע ממוחשבות | פרופ' ז. נוימן, פרופ' י. בורוביץ, י.מלמד | 40 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+| שיג ושיח - א' | הרב יונתן זקס | 55.1 | כחדש | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 11.11.26 21:37 |
 | רעיונות משני-חיים | יונתן זקס | 80.1 | כחדש | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+
+## האדם מחפש משמעות / ויקטור פרנקל
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| האדם מחפש משמעות | ויקטור פראנקל (פרנקל) | 35.2 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 11.11.26 21:37 |
 
 ## Three Men in a Boat / Jerome K. Jerome
 
@@ -112,7 +141,6 @@
 - The World of Yesterday / Stefan Zweig
 - DPs: Europe's Displaced Persons 1945-51 / Mark Wyman
 - His Dark Materials / Philip Pullman
-- The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared / Jonas Jonasson
 - Seven Pillars of Wisdom / T. E. Lawrence
 - Mother Night / Kurt Vonnegut
 - Absalom Absalom! / William Faulkner
@@ -131,7 +159,6 @@
 - חיי אישים / פלוטרכוס
 - עבד אמריקני סיפור חייו / פרדריק דאגלס
 - A Walk in the Woods / Bill Bryson
-- האדם מחפש משמעות / ויקטור פרנקל
 - גדל אשר באך / דאגלס הופשטטר
 - Prophets without honour / Frederic V. Grunfeld
 - The Innocents Abroad / Mark Twain
