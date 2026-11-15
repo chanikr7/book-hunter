@@ -1,9 +1,9 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 15.11.26 00:24 &nbsp;·&nbsp; **זמינים עכשיו:** 27 עותקים של 13 ספרים מהרשימה
+**ריצה אחרונה:** 15.11.26 08:42 &nbsp;·&nbsp; **זמינים עכשיו:** 26 עותקים של 13 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-15.11 00:24, 10 עותקים תואמים
-- סיפור חוזר: נבדק ב-14.11 08:24, 17 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-15.11 08:33, 10 עותקים תואמים
+- סיפור חוזר: נבדק ב-15.11 08:33, 16 עותקים תואמים
 
 ## כל הספרים של Kurt Vonnegut
 
@@ -52,9 +52,16 @@
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
 | The Name Of The Rose | Umberto Eco | 25 | Vintage , 2004 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-3/), סניף באר שבע- ביג | 11.11.26 08:30 |
-| The Name Of The Rose | Umberto Eco | 25 |  | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose/), סניף כפר סבא | 05.11.26 13:41 |
 | The Name of the Rose | Umberto Eco | 25 | MINERVA, Picador , 1984, 1997 | [סיפור חוזר](https://rebooks.org.il/product/the-name-of-the-rose-2/), סניף כפר סבא | 05.11.26 13:41 |
 | The name of the rose | Umberto Eco | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 05.11.26 13:41 |
+
+<details><summary>❌ עותקים שנעלמו (כנראה נמכרו)</summary>
+
+| כותר | חנות | מחיר | נמצא | נעלם |
+|---|---|---|---|---|
+| The Name Of The Rose | סיפור חוזר | 25 | 05.11.26 13:41 | 15.11.26 08:42 |
+
+</details>
 
 ## Catch-22 / Joseph Heller
 
