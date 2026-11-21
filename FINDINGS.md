@@ -1,9 +1,9 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 21.11.26 23:32 &nbsp;·&nbsp; **זמינים עכשיו:** 23 עותקים של 14 ספרים מהרשימה
+**ריצה אחרונה:** 22.11.26 00:01 &nbsp;·&nbsp; **זמינים עכשיו:** 44 עותקים של 16 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-21.11 23:25, 9 עותקים תואמים
-- סיפור חוזר: נבדק ב-21.11 23:25, 14 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-21.11 23:54, 29 עותקים תואמים
+- סיפור חוזר: נבדק ב-21.11 23:54, 15 עותקים תואמים
 
 ## כל הספרים של Kurt Vonnegut
 
@@ -176,6 +176,37 @@
 |---|---|---|---|---|---|
 | Three Men in a Boat | Jerome K. Jerome | 25 | Penguin Books, Tor , 1994, 2001 | [סיפור חוזר](https://rebooks.org.il/product/three-men-in-a-boat/), סניף אשדוד, חולון (מרכז הזמנות חולון- איסוף עצמי בלבד) | 05.11.26 13:41 |
 
+## Half of a Yellow Sun / Chimamanda Ngozi Adichie
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| Half of a yellow sun | Chimamanda Ngozi Adichie | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+
+## כל הספרים של H. P. Lovecraft
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| Dr. Maniac Vs. Robby Schwartz - Audio (Goosebumps Horrorland) | R.L. Stine | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Goosebumps : monster blood ii | R.l. Stine | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Goosebumps : the haunted mask ii | R.l. Stine | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Help! We Have Strange Powers! - Audio Library Edition (Goosebumps Horrorland) | R.L. Stine | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Mary Poppins and Mary Poppins Comes Back | Dr. P. L. Travers | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Monster Blood For Breakfast! - Audio (Goosebumps Horrorland) | R.L. Stine | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Through time into healing | Brian L. Weiss | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Who's Your Mummy? - Audio (Goosebumps Horrorland) | R.L. Stine | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Fifty Shades of Grey: Book One of the Fifty Shades Trilogy | E L James | 20.2 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Shadows of doom | Dennis L. Mckiernan | 25 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Genesis And The Big Bang | Gerald L. Schroeder, Phd | 25 |  | [סיפור חוזר](https://rebooks.org.il/product/genesis-and-the-big-bang/), סניף חריש | 22.11.26 00:01 |
+| Dark Visions: The Strange Power; The Possessed; The Passion | L.J. Smith | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Mary Poppins | Dr. P. L. Travers | 25.1 | כחדש | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| The Secret Circle: The Initiation and The Captive Part I | L. J. Smith | 30 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| The World Is Flat 3.0: A Brief History of the Twenty-first Century | Thomas L. Friedman | 30 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| The Seven Sins of Memory: How the Mind Forgets and Remembers | Daniel L. Schacter | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| You can heal your life | Louise L. Hay | 30.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| The Bridge Kingdom | Jensen Danielle L. | 35.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| Maimonides: The Life and World of One of Civilization's Greatest Minds | Joel L. Kraemer | 40.1 | כחדש | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+| clinically oriented anatomy | Keith L. | 65 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 00:01 |
+
 ## עוד לא נמצאו
 
 - The Gallic War / Julius Caesar
@@ -205,6 +236,8 @@
 - Prophets without honour / Frederic V. Grunfeld
 - The Innocents Abroad / Mark Twain
 - מסעות בנימין / בנימין מטודלה
+- כל הספרים של גלנקיל: מותחן כבשים
+- Three Bags Full / Leonie Swann
 
 ---
 הדף מתעדכן אוטומטית בכל ריצה. עותקים שנעלמו נשמרים 90 יום.
