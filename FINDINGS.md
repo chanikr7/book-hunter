@@ -1,8 +1,8 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 22.11.26 12:38 &nbsp;·&nbsp; **זמינים עכשיו:** 28 עותקים של 17 ספרים מהרשימה
+**ריצה אחרונה:** 22.11.26 21:41 &nbsp;·&nbsp; **זמינים עכשיו:** 28 עותקים של 17 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-22.11 12:34, 13 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-22.11 21:41, 13 עותקים תואמים
 - ⚠️ סיפור חוזר: תקלה בבדיקה ב-22.11 12:34 (הנתונים מהבדיקה הקודמת)
 
 ## כל הספרים של Kurt Vonnegut
@@ -218,8 +218,8 @@
 
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
-| Mostly Harmless (Hitchhiker's Trilogy, No 5) | Douglas Adams | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
 | The long dark tea-time of the soul | Douglas Adams | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
+| Mostly Harmless (Hitchhiker's Trilogy, No 5) | Douglas Adams | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
 | Mostly harmless | Douglas Adams | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
 
 ## עוד לא נמצאו
@@ -251,9 +251,9 @@
 - Prophets without honour / Frederic V. Grunfeld
 - The Innocents Abroad / Mark Twain
 - מסעות בנימין / בנימין מטודלה
-- כל הספרים של גלנקיל: מותחן כבשים
 - Three Bags Full / Leonie Swann
 - עלובי החיים / ויקטור הוגו
+- גלנקיל מותחן כבשים / לאוני סוואן
 
 ---
 הדף מתעדכן אוטומטית בכל ריצה. עותקים שנעלמו נשמרים 90 יום.
