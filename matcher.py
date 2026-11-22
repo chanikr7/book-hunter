@@ -78,7 +78,8 @@ def full_author_matches(wanted_author, item_author):
     """התאמה מחמירה לחיפוש לפי מחבר בלבד: כל חלקי השם צריכים להופיע.
 
     בלי זה, חיפוש "George R.R. Martin" לפי שם משפחה היה תופס כל Martin.
-    אות בודדת בקטלוג (T. Pratchett) נחשבת התאמה לשם שמתחיל באותה אות.
+    אות בודדת בקטלוג (T. Pratchett) נחשבת התאמה לשם פרטי שמתחיל באותה אות,
+    אבל שם המשפחה חייב להופיע במלואו (אחרת "L." היה תואם ל-Lovecraft).
     """
     if "," in wanted_author:  # "Pratchett, Terry" -> "Terry Pratchett"
         last, _, first = wanted_author.partition(",")
@@ -87,7 +88,10 @@ def full_author_matches(wanted_author, item_author):
     item_tokens = normalize(item_author).split()
     if not wanted_tokens or not item_tokens:
         return False
-    for wt in wanted_tokens:
+    surname = wanted_tokens[-1]
+    if not any(_name_eq(surname, it) for it in item_tokens):
+        return False
+    for wt in wanted_tokens[:-1]:
         ok = any(_name_eq(wt, it) or (len(it) == 1 and it == wt[0])
                  for it in item_tokens)
         if not ok:
