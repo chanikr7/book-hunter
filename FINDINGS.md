@@ -1,9 +1,9 @@
 # 📚 ממצאים
 
-**ריצה אחרונה:** 23.11.26 09:49 &nbsp;·&nbsp; **זמינים עכשיו:** 32 עותקים של 17 ספרים מהרשימה
+**ריצה אחרונה:** 23.11.26 12:33 &nbsp;·&nbsp; **זמינים עכשיו:** 34 עותקים של 18 ספרים מהרשימה
 
-- גולדמונד ספרים (חיפה): נבדק ב-23.11 09:40, 13 עותקים תואמים
-- סיפור חוזר: נבדק ב-23.11 09:40, 19 עותקים תואמים
+- גולדמונד ספרים (חיפה): נבדק ב-23.11 12:25, 14 עותקים תואמים
+- סיפור חוזר: נבדק ב-23.11 12:25, 20 עותקים תואמים
 
 ## כל הספרים של Kurt Vonnegut
 
@@ -168,6 +168,7 @@
 
 | ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
 |---|---|---|---|---|---|
+| האדם מחפש משמעות | ויקטור פרנקל | 25 | דביר , 1970, 1981 | [סיפור חוזר](https://rebooks.org.il/product/%d7%94%d7%90%d7%93%d7%9d-%d7%9e%d7%97%d7%a4%d7%a9-%d7%9e%d7%a9%d7%9e%d7%a2%d7%95%d7%aa-7/), סניף עפולה | 23.11.26 12:33 |
 | האדם מחפש משמעות | ויקטור פראנקל (פרנקל) | 35.2 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 11.11.26 21:37 |
 
 ## Three Men in a Boat / Jerome K. Jerome
@@ -217,10 +218,10 @@
 |---|---|---|---|---|---|
 | The long dark tea-time of the soul | Douglas Adams | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
 | Mostly Harmless (Hitchhiker's Trilogy, No 5) | Douglas Adams | 20.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
-| The Hitchhikers Guide to The Galaxy | Douglas Adams | 25 | Ballantine Books, Pan Books , 1979 | [סיפור חוזר](https://rebooks.org.il/product/the-hitchhikers-guide-to-the-galaxy-5/), סניף באר שבע | 23.11.26 09:49 |
-| LIFE THE ADVENTURE AND EVERYTHING | Douglas Adams | 25 | Pocket Books , 1985 | [סיפור חוזר](https://rebooks.org.il/product/life-the-adventure-and-everything/), סניף חולון (מרכז הזמנות חולון- איסוף עצמי בלבד) | 23.11.26 09:49 |
 | SO LONG, AND THANKS FOR ALL THE FISH | Douglas Adams | 25 | Pan Books , 1984 | [סיפור חוזר](https://rebooks.org.il/product/so-long-and-thanks-for-all-the-fish-4/), סניף חולון (מרכז הזמנות חולון- איסוף עצמי בלבד) | 23.11.26 09:49 |
 | SO LONG, AND THANKS FOR ALL THE FISH | Douglas Adams | 25 | Ballantine Books , 2005 | [סיפור חוזר](https://rebooks.org.il/product/so-long-and-thanks-for-all-the-fish-3/), סניף חולון (מרכז הזמנות חולון- איסוף עצמי בלבד) | 23.11.26 09:49 |
+| The Hitchhikers Guide to The Galaxy | Douglas Adams | 25 | Ballantine Books, Pan Books , 1979 | [סיפור חוזר](https://rebooks.org.il/product/the-hitchhikers-guide-to-the-galaxy-5/), סניף באר שבע | 23.11.26 09:49 |
+| LIFE THE ADVENTURE AND EVERYTHING | Douglas Adams | 25 | Pocket Books , 1985 | [סיפור חוזר](https://rebooks.org.il/product/life-the-adventure-and-everything/), סניף חולון (מרכז הזמנות חולון- איסוף עצמי בלבד) | 23.11.26 09:49 |
 | Mostly harmless | Douglas Adams | 25.1 | טוב | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 22.11.26 12:38 |
 
 ## גלנקיל מותחן כבשים / לאוני סוואן
@@ -229,6 +230,12 @@
 |---|---|---|---|---|---|
 | גלנקיל מותחן כבשים | לאוני סוואן | 25 | עם עובד/ספריה לעם , 2008 | [סיפור חוזר](https://rebooks.org.il/product/%d7%92%d7%9c%d7%a0%d7%a7%d7%99%d7%9c-%d7%9e%d7%95%d7%aa%d7%97%d7%9f-%d7%9b%d7%91%d7%a9%d7%99%d7%9d-4/), סניף עפולה, רמלה, תל אביב | 23.11.26 09:49 |
 | גלנקיל מותחן כבשים | לאוני סוואן | 25 | הספריה לעם הוצאת עם עובד , 2005, 2008, 2009 | [סיפור חוזר](https://rebooks.org.il/product/%d7%92%d7%9c%d7%a0%d7%a7%d7%99%d7%9c-%d7%9e%d7%95%d7%aa%d7%97%d7%9f-%d7%9b%d7%91%d7%a9%d7%99%d7%9d-3/), סניף חולון (מרכז הזמנות חולון- איסוף עצמי בלבד), חריש, יבנה, כפר סבא, עכו, פתח תקווה, רחובות, רמלה, רמת גן, תל אביב | 23.11.26 09:49 |
+
+## Dracula / Bram Stoker
+
+| ✅ זמין | מחבר | מחיר | פרטים | איפה | נמצא לראשונה |
+|---|---|---|---|---|---|
+| Dracula | Bram Stoker | 20.1 | כחדש | [גולדמונד ספרים (חיפה)](https://files.goldmundbooks.com/catalog_cart.html), חיפה, עקרון 6 (שוק תלפיות) | 23.11.26 12:33 |
 
 ## עוד לא נמצאו
 
@@ -261,6 +268,9 @@
 - מסעות בנימין / בנימין מטודלה
 - Three Bags Full / Leonie Swann
 - עלובי החיים / ויקטור הוגו
+- Frankenstein / Mary Shelley
+- Strange Case of Dr Jekyll and Mr Hyde / Robert Louis Stevenson
+- The Picture of Dorian Gray / Oscar Wilde
 
 ---
 הדף מתעדכן אוטומטית בכל ריצה. עותקים שנעלמו נשמרים 90 יום.
